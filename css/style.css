@@ -1,0 +1,39 @@
+
+.img{
+    border: 1px solid gray;
+    background-color: white;
+    padding: 0.5rem, 0.5rem, 0,5rem, 0,5;
+    padding-bottom: 1.5rem;
+    position: absolute;
+    opacity: 0.7;
+    filter: grayscale(90%);
+    transition: 7s;
+    width: 25%;
+    height: 25%;
+    z-index: auto;
+
+}
+
+
+
+
+#img1 {
+    top: 10%;
+    right: 30%;
+    transform: rotate(20deg);
+  }
+  #img2 {
+    top: 20%;
+    right: 30%;
+    transform: rotate(30deg);
+  }
+  #img3 {
+    top: 30%;
+    right: 35%;
+    transform: rotate(40deg);
+  }
+  #img4 {
+    transform: rotate(50deg);
+    top: 40%;
+    right: 40%;
+  }
